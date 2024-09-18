@@ -80,12 +80,8 @@ To analyze student enrollment trends and the recognition of prior learning using
 ### **Project Title:**
 Descriptive Analysis of Vancouver Business License Issuances (2023-2024) Using AWS
 
----
-
 ### **Project Overview:**
 This project focuses on analyzing business licenses issued in Vancouver between 2023 and 2024. The objective is to extract insights into the types of businesses, timelines for license issuance, fees, and trends influencing Vancouver's business ecosystem. The analysis is powered by AWS services such as **S3** for data storage, **Glue** for ETL processes, **Athena** for querying, and **QuickSight** for visualization, enabling actionable insights and informed decision-making.
-
----
 
 ### **Dataset:**
 Key features of the dataset include:
@@ -100,12 +96,8 @@ Key features of the dataset include:
 - **IssueYear**: Year the license was issued.
 - **GeoLocalArea**: Geographic region within Vancouver.
 
----
-
 ### **Objective:**
 The goal of this project is to conduct a descriptive analysis of business license issuance in Vancouver. The insights help in understanding business growth, fee structures, common business types, and geographic trends, supporting city planning and economic strategy decisions.
-
----
 
 ### **Methodology:**
 
@@ -131,14 +123,10 @@ The goal of this project is to conduct a descriptive analysis of business licens
      - **Geographic Heatmaps**: Visualizing concentrations of licenses issued across Vancouver.
      - **Business Type Distribution**: Bar charts depicting the breakdown of businesses by type and category.
 
----
-
 ### **Insights and Findings:**
 - **License Trends**: Insight into average fees by business type, common license categories, and active geographic areas.
 - **High-Fee Licenses**: Identification of high-fee licenses and their geographic concentrations.
 - **Business Growth**: Seasonal trends in business license issuance and emerging business hotspots across Vancouver.
-
----
 
 ### **Tools and Technologies:**
 - **Amazon S3**: Scalable, secure data storage.
@@ -146,14 +134,10 @@ The goal of this project is to conduct a descriptive analysis of business licens
 - **Amazon Athena**: SQL querying for structured datasets.
 - **AWS QuickSight**: Creating interactive dashboards and visualizations.
 
----
-
 ### **Deliverables:**
 - **Detailed Report**: Summarizing insights, trends, and findings from the analysis.
 - **AWS QuickSight Visualizations**: Interactive dashboards showcasing key metrics such as business types, fee structures, and geographic trends.
 - **Presentation**: A comprehensive presentation to stakeholders, emphasizing trends useful for city planning and business development.
-
----
 
 ### **Timeline:**
 - **Week 1-2**: Data ingestion and cleaning with **AWS Glue**.
@@ -168,17 +152,11 @@ The goal of this project is to conduct a descriptive analysis of business licens
 ## **Project Title**  
 **Diagnostic Analysis of Vancouver Business License Issuances (2023-2024) Using AWS**
 
----
-
 ### **Project Overview**  
 This project focuses on diagnostic analysis of business licenses issued in Vancouver during 2023 and 2024. The analysis uncovers insights into factors influencing license issuance, including processing timelines, geographic concentration of businesses, business types, and fee structures. Using AWS services—S3 for data storage, Glue for cleaning, Athena for querying, and QuickSight for visualizations—the project identifies bottlenecks and business opportunities in Vancouver's licensing process.
 
----
-
 ### **Objective**  
 The objective is to analyze business license issuance data from Vancouver (2023-2024), identifying trends and bottlenecks related to processing times, license fees, business types, and geographic areas. This analysis will support city officials and business developers in optimizing the licensing process and recognizing high-growth business areas.
-
----
 
 ### **Dataset**  
 Key features of the dataset include:  
@@ -190,8 +168,6 @@ Key features of the dataset include:
 - **BusinessType**: Type of business (e.g., Retail, Restaurant)  
 - **LicenseStatus**: License status (e.g., Active, Expired)  
 - **GeoLocalArea**: Geographical area within Vancouver  
-
----
 
 ### **Methodology**  
 
@@ -217,14 +193,10 @@ Key features of the dataset include:
   - **Bar Charts**: Compare average processing times by business type across years.  
   - **Scatter Plots**: Visualize correlations between license fees and processing times.
 
----
-
 ### **Insights and Findings**  
 - **Bottleneck Identification**: Some business types (e.g., restaurants) experience longer processing times, indicating inefficiencies.  
 - **Geographic Trends**: Certain areas face delays, potentially due to regulatory or density-related challenges.  
 - **Fee-to-Time Relationship**: Higher fees may not always correspond to quicker processing, presenting opportunities for optimization.
-
----
 
 ### **Tools and Technologies**  
 - **Amazon S3**: For scalable data storage  
@@ -232,14 +204,10 @@ Key features of the dataset include:
 - **Amazon Athena**: For querying and running diagnostic analyses  
 - **AWS QuickSight**: For visualizing diagnostic trends and insights  
 
----
-
 ### **Deliverables**  
 - **Diagnostic Report**: A detailed report of key findings, bottlenecks, and trends  
 - **Visual Dashboards**: Interactive dashboards showcasing processing times, geographic trends, and correlations  
 - **Recommendations**: Actionable insights to improve licensing efficiency and identify business opportunities  
-
----
 
 ### **Timeline**  
 - **Week 1-2**: Data ingestion, cleaning, and normalization with AWS Glue  
@@ -251,22 +219,14 @@ Key features of the dataset include:
 
 ## Project 4: Data Wrangling for University Enrollment Analysis Using AWS Services
 
----
-
 ### **Project Title**  
 **Data Wrangling of University Canada West (UCW) Enrollment and Prior Learning Assessment Data Using AWS**
-
----
 
 ### **Project Overview**  
 This project involves performing comprehensive data wrangling on the University Canada West (UCW) student enrollment and Prior Learning Assessment and Recognition (PLAR) dataset. The goal is to clean, transform, and prepare the dataset for further analysis and reporting. AWS services such as S3 for data storage, Glue for ETL, and Athena for querying were utilized to facilitate deeper analysis into enrollment trends, prior learning recognition outcomes, and program distribution. This wrangled data will aid UCW in enhancing its decision-making capabilities regarding student retention, program development, and academic progress tracking.
 
----
-
 ### **Objective**  
 The primary objective of this project is to conduct comprehensive data wrangling on UCW’s enrollment and PLAR dataset. By cleaning and transforming the data, the goal is to enhance the dataset’s accuracy and usability for descriptive and diagnostic analysis of student enrollment patterns, recognition trends, and demographics. This process will enable UCW to gain actionable insights for optimizing academic programs and improving student retention strategies.
-
----
 
 ### **Dataset**  
 Key features of the dataset include:  
@@ -281,8 +241,6 @@ Key features of the dataset include:
 - **RecognitionOutcome**: Status of the recognition (Approved/Denied)  
 - **Status**: Enrollment status (Enrolled/Graduated)  
 - **Email**: Contact email of the students  
-
----
 
 ### **Methodology**  
 
@@ -313,8 +271,6 @@ Key features of the dataset include:
   - **Recognition Outcomes**: Show trends in recognition outcomes by program  
   - **Graduation Timelines**: Track average time-to-graduation across programs  
 
----
-
 ### **Wrangling Process**  
 
 #### **1. Discover**  
@@ -341,8 +297,6 @@ Key features of the dataset include:
 - Stored the cleaned and enriched dataset in Amazon S3 for further analysis.  
 - Documented all data wrangling steps, transformations, and insights for reproducibility.
 
----
-
 ### **Tools and Technologies**  
 - **Amazon S3**: Scalable data storage  
 - **AWS Glue**: Data cleaning, transformation, and ETL processes  
@@ -351,14 +305,10 @@ Key features of the dataset include:
 - **AWS EC2**: Scalable compute resources for data processing  
 - **AWS VPC**: Secure environment for EC2 instances  
 
----
-
 ### **Deliverables**  
 - **Cleaned Dataset**: CSV format dataset cleaned and transformed for analysis  
 - **Data Wrangling Report**: Comprehensive documentation of the cleaning and transformation process  
 - **Interactive Dashboards**: AWS QuickSight dashboards highlighting key insights such as enrollment trends, gender distribution, and graduation timelines  
-
----
 
 ### **Timeline**  
 - **Week 1-2**: Data ingestion and discovery phase  
@@ -376,20 +326,14 @@ Key features of the dataset include:
 ### Project Title:
 **Data Quality Control Analysis of Vancouver Business License Issuances (2023-2024) Using AWS**
 
----
-
 ### Project Overview:
 This project focuses on performing a **data quality control analysis** of business licenses issued in Vancouver between **2023 and 2024**. The goal is to ensure the **quality and consistency** of the dataset by implementing data quality checks during the ETL process using **AWS Glue**. **AWS Athena** is used for querying, while **AWS QuickSight** visualizes trends and data quality metrics. This analysis helps inform the **City of Vancouver** on improvements in data management, ensuring **data integrity** for future decision-making.
-
----
 
 ### Objectives:
 1. Perform **ETL (Extract, Transform, Load)** on Vancouver’s business license dataset using AWS services.
 2. Ensure the dataset meets **predefined quality standards** such as completeness, accuracy, and consistency.
 3. Visualize trends in license issuance to support business development strategies in Vancouver.
 4. Monitor and control ongoing data quality using AWS tools.
-
----
 
 ### Dataset Features:
 - **LicenseNumber**: Unique identifier for each business license.
@@ -400,8 +344,6 @@ This project focuses on performing a **data quality control analysis** of busine
 - **LicenseStatus**: Status of the license (Active, Expired).
 - **GeoLocalArea**: Geographic region within Vancouver.
 - **Address**: Business location.
-
----
 
 ### Methodology:
 
@@ -433,14 +375,10 @@ This project focuses on performing a **data quality control analysis** of busine
   - **Geographic Accuracy**: Maps displaying business license distributions.
   - **License Fee Trends**: Visualize anomalies or outliers in license fees across business types.
 
----
-
 ### Insights and Findings:
 - **Data Completeness**: Identified fields with significant missing data, highlighting potential issues in data entry.
 - **Data Consistency**: Standardizing business types and verifying geographic data improved dataset reliability.
 - **Geographic Trends**: Geographic distributions identified regions with poor data quality due to inconsistent entry practices.
-
----
 
 ### Tools and Technologies:
 - **AWS S3**: Scalable data storage.
@@ -450,15 +388,11 @@ This project focuses on performing a **data quality control analysis** of busine
 - **AWS CloudWatch**: Monitoring ETL performance and tracking data quality.
 - **AWS CloudTrail**: Auditing changes and interactions with the data pipeline for compliance.
 
----
-
 ### Deliverables:
 - **Data Quality Control Plan**: Document outlining quality checks and metrics.
 - **Cleaned and Validated Dataset**: High-quality data ready for further analysis.
 - **Interactive Dashboards**: AWS QuickSight dashboards for real-time data quality tracking.
 - **Reports and Recommendations**: Summarized findings and suggestions for improving data entry and management.
-
----
 
 ### Timeline:
 - **Week 1-2**: Data ingestion and quality assessment.
